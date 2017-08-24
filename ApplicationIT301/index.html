@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:black;">
+<style>
+.button {
+    background-color: #398ccc;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 {border-radius: 50%;}
+.button2 {border-radius: 50%;}
+</style>
+<script>
+function On() {
+    document.body.style.backgroundColor = "white";
+}
+function Off() {
+    document.body.style.backgroundColor = "black";
+}
+</script>
+<center>
+	<div style="margin-top: 30%">
+  	<button class="button button1" onclick="On()">Light On</button>
+	<button class="button button2" onclick="Off()">Light Off</button>
+	</div>
+</center>
+</body>
+</html>
